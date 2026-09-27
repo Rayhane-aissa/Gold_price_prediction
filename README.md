@@ -1,35 +1,32 @@
-<img src="https://media.licdn.com/dms/image/D5612AQFxTP86v0loRg/article-cover_image-shrink_600_2000/0/1683002849697?e=2147483647&v=beta&t=h1XMz5wxnZ0wVnyF1AqMvQ92Tzzm07shN38_Kzr3BfA" alt="Gold Price Prediction" align="center" width="auto" height="auto" /> 
-
 # Gold Price Prediction 📈
 
-**Project Description | Key Features | Tech Stack**
+A machine learning project exploring gold price forecasting
+using historical prices and economic indicators.
 
-## 🚀 Project Description
+## Overview
 
-This project predicts future gold prices using machine learning techniques.  
-The model analyzes historical gold price data along with relevant economic indicators to forecast short-term and medium-term gold price movements.
+This project uses XGBoost to model relationships between gold
+prices and selected economic indicators. It combines exploratory
+data analysis, feature engineering, and predictive modeling.
 
-✅ **Achievements**:
-- XGBoost model with **99.23% accuracy** (verified not overfitted)
-- Comprehensive feature engineering
-- Production-ready pipeline
+## Key Features
 
-## 🔍 Key Features
+- Exploratory analysis of historical gold price data
+- Integration of economic indicators as predictive features
+- Data preprocessing and feature engineering
+- Gold price prediction using XGBoost
+- Visualization of price trends and model predictions
 
-- Historical data analysis 
-- Multiple economic indicators integration
-- Model XGBoost 
+## Tech Stack
 
-## 🛠 Tech Stack
+- **Language:** Python
+- **Modeling:** XGBoost, Scikit-learn
+- **Data Processing:** Pandas, NumPy
+- **Visualization:** Matplotlib, Seaborn
+- **Development:** Jupyter Notebook, Git, GitHub
 
-python
-# Core Technologies
-- Python 3.8+
-- XGBoost
-- Pandas/Numpy
-- Scikit-learn
-- Matplotlib/Seaborn
+## Limitations
 
-# Infrastructure
-- Jupyter Notebooks
-- Git/GitHub
+Gold prices are influenced by market conditions and unexpected
+events that historical data cannot fully capture. This project
+is intended for educational and experimental purposes.
